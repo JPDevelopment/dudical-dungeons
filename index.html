@@ -22,6 +22,7 @@
 				<img id="tom-cruise" src="../assets/tom-cruise.jpg">
 				<img id="david" src="../assets/david.jpg">
 				<img id="lambo" src="../assets/lambo.jpg">
+				<audio id="mr-t-audio" src="../assets/mr-t-audio.wav" preload="auto">
 				<audio id="music" src="../assets/true-survivor.mp3" preload="auto" loop="true"></audio>
 				<video id="sky" autoplay loop="true" src="../assets/sky.mp4">
 			</a-assets>
@@ -35,7 +36,7 @@
 				<a-light color="#fff" distance="15" intensity="4" type="spot"></a-light>
 			</a-entity>
 			<!-- Google Daydream Remote Configuration -->
-			<a-entity id="remote" daydream-controller raycaster="objects: .selectable">
+			<a-entity id="remote" daydream-controller cursor raycaster="far: 20; interval: 1000; objects: .clickable">
 				<a-cone id="ray" color="green" position="0 0 -2" rotation="-90 0 0" radius-bottom="0.005" radius-top="0.001" height="4"></a-cone>
         <a-box id="position-guide" visible="false" position="0 0 -2"></a-box>
 			</a-entity>
@@ -44,7 +45,7 @@
 			<a-image src="#david" position="15 1.5 -22"></a-image>
 			<a-image src="#tom-cruise" position="-16 1.5 -19w"></a-image>
 			<a-image src="#cool-kid" position="-15 1.5 15" rotation="0 90 0"></a-image>
-			<a-image src="#mr-t" position="15 1.5 1"></a-image>
+			<!-- <a-image id="mr-t-image" src="#mr-t" position="15 1.5 1" sound="src: #mr-t-audio; on: click"></a-image> -->
 			<a-image src="#lambo" position="-16 1.5 0" rotation="0 90 0"></a-image>
 			<a-image src="#boy-george" position="-6 1.5 15" rotation="0 90 0"></a-image>
 			<a-text value="DUDICAL DUNGEONS" font="exo2bold" scale="2 2 2" color="orange" position="12 2.5 9"></a-text>
