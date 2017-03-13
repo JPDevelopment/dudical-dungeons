@@ -15,7 +15,14 @@
 			<a-assets>
 				<img id="floor-texture" src="../assets/floor.jpg">
 				<img id="wall-texture" src="../assets/wall.jpg">
-				<audio id="music" src="../assets/music.mp3" preload="auto" loop="true"></audio>
+				<img id="cg" src="../assets/cg.jpg">
+				<img id="mr-t" src="../assets/mr-t.jpg">
+				<img id="boy-george" src="../assets/boy-george.jpg">
+				<img id="cool-kid" src="../assets/cool-kid.jpg">
+				<img id="tom-cruise" src="../assets/tom-cruise.jpg">
+				<img id="david" src="../assets/david.jpg">
+				<img id="lambo" src="../assets/lambo.jpg">
+				<audio id="music" src="../assets/true-survivor.mp3" preload="auto" loop="true"></audio>
 				<video id="sky" autoplay loop="true" src="../assets/sky.mp4">
 			</a-assets>
 			<!-- Player/Camera Entity -->
@@ -32,6 +39,17 @@
 				<a-cone id="ray" color="green" position="0 0 -2" rotation="-90 0 0" radius-bottom="0.005" radius-top="0.001" height="4"></a-cone>
         <a-box id="position-guide" visible="false" position="0 0 -2"></a-box>
 			</a-entity>
+			<a-image src="#cg" position="0 1.5 0"></a-image>
+			<a-image src="#david" position="15 1.5 -22"></a-image>
+			<a-image src="#tom-cruise" position="-16 1.5 -19w"></a-image>
+			<a-image src="#cool-kid" position="-15 1.5 15" rotation="0 90 0"></a-image>
+			<a-image src="#mr-t" position="15 1.5 1"></a-image>
+			<a-image src="#lambo" position="-16 1.5 0" rotation="0 90 0"></a-image>
+			<a-image src="#boy-george" position="-6 1.5 15" rotation="0 90 0"></a-image>
+			<a-text value="DUDICAL DUNGEONS" font="exo2bold" scale="2 2 2" color="orange" position="12 2.5 9"></a-text>
+			<a-text value="DUDE + RADICAL = DUDICAL" font="exo2bold" scale="2 2 2" color="orange" position="11.5 2 9"></a-text>
+			<a-text value="PREPARE THYSELF!" scale="2 2 2" font="exo2bold" color="orange" position="12 1.5 9"></a-text>
+
 			<a-entity id="walls" static-body></a-entity>
 			<a-videosphere src="#sky"></a-videosphere>
 			<a-plane rotation="-90 0 0" width="100" height="100" src="#floor-texture" repeat="8 8" static-body></a-plane>
