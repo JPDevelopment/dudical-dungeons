@@ -12,6 +12,10 @@
     "budo": "^7.0.0",
     "ghpages": "0.0.3"
   },
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPDevelopment/dudical-dungeons.git"
+	},
   "keywords": [
     "aframe",
     "aframe-example",
