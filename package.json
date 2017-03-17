@@ -1,7 +1,7 @@
 {
-  "name": "dudical-dungeons-copy",
+  "name": "dudical-dungeons",
   "version": "1.0.0",
-  "description": "Created By Jason Powell Music: Vincenzo Salvia - The Awakening of the 1982 Golf GTD",
+  "description": "Created By Jason Powell",
   "main": "grid.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
