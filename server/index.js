@@ -20,6 +20,6 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).send(err.message || 'Internal server error');
 });
 
-app.listen(1337, () => {
-    console.log('The server is totally listen on port 1337, dude!');
+app.listen(process.env.PORT || 1337, () => {
+    console.log('The server is totally listening, dude!');
 });
